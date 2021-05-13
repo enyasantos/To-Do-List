@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://mainAdmin:admin@cluster0-hrefk.mongodb.net/todolist?retryWrites=true&w=majority', {
+mongoose.connect('<mongourl>', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
